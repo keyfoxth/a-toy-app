@@ -1,7 +1,8 @@
 michael:
-  name: keyfoxth
+  name: Keyfoxth
   email: vipwangyw@hotmail
   password_digest: <%= User.digest('password') %>
+  admin: true
   
 archer:
   name: doitbest
